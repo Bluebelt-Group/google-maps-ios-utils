@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "simple",
+  "include-component-in-tag": false,
+  "bump-minor-pre-major": false,
+  "bump-patch-for-minor-pre-major": false,
+  "packages": {
+    ".": {
+      "bootstrap-sha": "b56b39cec0e3d5938ddadbfeb4d3fec541ebbb5e",
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [
+        "Google-Maps-iOS-Utils.podspec",
+        "Podfile.template",
+        "README.md"
+      ]
+    }
+  }
+}

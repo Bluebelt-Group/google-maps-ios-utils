@@ -19,7 +19,7 @@ import PackageDescription
 let package = Package(
   name: "GoogleMapsUtils",
   platforms: [
-    .iOS(.v16),
+    .iOS(.v15),
   ],
   products: [
     .library(
